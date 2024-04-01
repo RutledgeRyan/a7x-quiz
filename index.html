@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A7X</title>
+      <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <h1 style="text-align: center;">Avenged Sevenfold Quiz</h1>
+<div class="container" style="border: 3px solid black;">
+
+    <div class="container" style="border: 1px solid gray; padding: 2px; margin: 2px;">
+    <p style="text-align: center;">Which A7X song was featured in Guitar Hero?</p>
+    <div class="btn-group">
+        <button class="qBtn btn btn-sm btn-info m-4" num="1">Nightmare</button>
+        <button class="qBtn btn btn-sm btn-info m-4" num="2">Beast and the Harlot</button>
+        <button class="qBtn btn btn-sm btn-info m-4" num="3">Seize the Day </button>
+    </div>
+    </div>
+    <div>
+         <!-- Part 3) input element buttons as check boxes -->
+      <div class="container"  style="border: 3px solid blue; padding: 2px; margin: 2px;">
+        <p>Which Members of the Band are still Playing?<span style="font-size:large"></span></p>
+        <div class="btn-group-lg btn-group-toggle" data-toggle="buttons" >
+            <input type="checkbox" class="btn-check a7x" id="strider"  autocomplete="off">
+            <label class="btn btn-outline-info" for="strider">The REV</label>
+            <input type="checkbox" correct class="btn-check a7x" id="legolas"  autocomplete="off">
+            <label class="btn btn-outline-info" for="legolas" >M Shadows</label>
+            <input type="checkbox" class="btn-check a7x" id="arwen" autocomplete="off">
+            <label class="btn btn-outline-info" for="arwen">Justin Sane</label>
+            <input type="checkbox" correct class="btn-check a7x" id="merry" autocomplete="off">
+            <label class="btn btn-outline-info" for="merry">Johnny Christ</label>
+            <input type="checkbox" class="btn-check a7x" id="pippin" autocomplete="off">
+            <label class="btn btn-outline-info" for="pippin">Matt Wendt</label>
+            <input type="checkbox" correct class="btn-check a7x" id="frodo" autocomplete="off">
+            <label class="btn btn-outline-info" for="frodo">Synster Gates</label>
+        </div>
+</div>
+
+<div class="container"  style="border: 2px solid yellow; padding: 2px; margin: 2px;">
+    <p>The REV played what instrument, while he was alive in the band?<span style="font-size:larger"></span></p>
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-secondary active">
+      <input type="radio" name="rev" id="Guitar" autocomplete="off" checked> Guitar
+      </label>
+      <label class="btn btn-secondary">
+      <input type="radio" name="rev" id="Drums" autocomplete="off"> Drums
+      </label>
+      <label class="btn btn-secondary">
+      <input type="radio" name="rev" id="Bass" autocomplete="off"> Bass
+      </label>
+  </div>
+</div>
+
+</div> 
+</body>
+
+</html>
